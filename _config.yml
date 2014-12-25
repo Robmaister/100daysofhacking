@@ -3,7 +3,7 @@ title: 100 Days of Hacking
 email: robert.rouhani@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A blog with one post per day for 100 days with an update for one
-  of the projets I worked on that day. Follow me on this journey with
+  of the projects I worked on that day. Follow me on this journey with
   #100daysofhacking
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://100daysofhacking.com" # the base hostname & protocol for your site
