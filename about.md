@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "About"
-description: "This is what I do."
+description: "Yo"
 header-img: "img/bg/IMG_0756-min.jpg"
 img-credit-name: "Robert Rouhani"
 img-credit-link: "http://robmaister.com"
 ---
 
-Placeholder text.
+There will be a bio here eventually.
