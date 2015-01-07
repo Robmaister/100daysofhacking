@@ -22,6 +22,18 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	
+	<!-- Facebook meta tags -->
+    <meta property="fb:admins" content="1512579920" />
+    <meta property="og:site_name" content="100 Days of Hacking" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:image" content="{{ page.header-img | prepend: '/' | prepend: site.baseurl | prepend: site.url }}" />
+    {% if page.is_post %}
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+    <meta property="article:author" content="https://www.facebook.com/robert.rouhani" />
+    {% endif %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -17,3 +17,12 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","README.md"]
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: post
+    values:
+      is_post: true
